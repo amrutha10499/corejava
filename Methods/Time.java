@@ -1,9 +1,9 @@
 class Time{
-static void currtime(){
- System.out.println("the current time is 10:30");
+static void currtime(int hours){
+ System.out.println("the current time is "+hours);
 }
  static void currtime(int hour,byte mins){
- System.out.println("10 hours 30 mins"); 
+ System.out.println(hours+"hours"+ mins+"mins"); 
  }
  
  static String timezone(String zone){
